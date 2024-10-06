@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'serca';
+    src: url(../serca_complete_fonts/serca_normal_fonts/Serca-Regular.otf);
+}
+
+html *{
+    font-family: 'serca', sans-serif;
+}
+
+/* header */
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    color: #f2f2f2;
+    font-size: 24px;
+}
+
+/* body */
+body{
+    background-color: #f2f2f2;
+}
+
+.text{
+    margin: auto;
+}
+
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Helvetica;
+}
+
+/* drpdwn */
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #0D1821;
+    min-width: 200px;
+    min-height: 160px;
+    z-index: 99;
+}
+
+.dropdown-content a{
+    display: block;
+    padding: 20px 10px;
+}
+
+#dropdown:hover{
+    color: #7C6C77;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.dropdown-content:hover{
+    color: #7C6C77;
+}
+
+.drop:hover .dropdown-content {display: block;}
+
+/* Header */
+header {
+    color: #f2f2f2;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    /* box-shadow: 0 1px 8px #ddd; */
+    background-color: #0D1821;
+    font-size: 22px;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+    margin-left: 35px;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #7C6C77;
+}
+
+/* body content */
+.content{
+    margin-top: 107px;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.button{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    color: #f2f2f2;
+    width: 250px;
+    height: 80px;
+    background-color: black;
+    border-radius: 100px;
+    margin-top: 190px;
+}
+
+.button h3{
+    padding: auto;
+    margin: auto;
+}
+
+.holder{
+    display: flex;
+    margin: 250px 100px;
+    background-color: #f2f2f2;
+}
+
+.line1-1{
+    padding: 300px 180px;
+    background-color: #7C6C77;
+    flex-basis: 25%;
+    background-image: url(../props/collections-props/ProPackBlack\ 1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line1-2{
+    padding: 300px 180px;
+    background-color: #7C6C77;
+    flex-basis: 25%;
+    background-image: url(../props/collections-props/ProPackNavy\ 1\ \(1\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line1-3{
+    padding: 300px 180px;
+    background-color: #7C6C77;
+    flex-basis: 25%;
+    background-image: url(../props/collections-props/ProPackOlive\ 1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line2-1{
+    padding: 300px 180px;
+    background-color: #7C6C77;
+    flex-basis: 25%;
+    background-image: url(../props/collections-props/go-pack/aer_go_gopack2_black\ 1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line2-2{
+    padding: 300px 180px;
+    background-color: #7C6C77;
+    flex-basis: 25%;
+    background-image: url(../props/collections-props/go-pack/aer_go_gopack2_lunargray\ 1\ \(1\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line2-3{
+    padding: 300px 180px;
+    background-color: #7C6C77;
+    flex-basis: 25%;
+    background-image: url(../props/collections-props/go-pack/ProPackOlive\ 2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line3-1{
+    padding: 300px 180px;
+    background-color: #f2f2f2;
+    flex-basis: 25%;
+    background-image: url(../props/collections-props/sling/ProPackBlack\ 1-2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line3-2{
+    padding: 300px 180px;
+    background-color: #7C6C77;
+    flex-basis: 25%;
+    background-image: url(../props/collections-props/sling/ProPackNavy\ 3.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line3-3{
+    padding: 300px 180px;
+    background-color: #7C6C77;
+    flex-basis: 25%;
+    background-image: url(../props/collections-props/sling/ProPackOlive\ 3.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line4-1{
+    padding: 300px 180px;
+    background-color: #7C6C77;
+    flex-basis: 25%;
+    background-image: url(../ProPackBlack\ 1-4.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line4-2{
+    padding: 300px 180px;
+    background-color: #7C6C77;
+    flex-basis: 25%;
+    background-image: url(../ProPackNavy\ 4.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.line4-3{
+    padding: 300px 180px;
+    background-color: #7C6C77;
+    flex-basis: 25%;
+    background-image: url(../ProPackOlive\ 4.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item-desc{
+    flex-basis: 75%;
+    background-color: #f2f2f2;
+}
+
+.main{
+    z-index: -1;
+}
+
+/* footer */
+.footer{
+    margin-top: 300px;
+    background-color:  #0D1821;
+    width: 100%;
+    height: 700px;
+    font-size: 24px;
+    color: #f2f2f2;
+}
+
+.footer-nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.footer-nav ul li{
+    margin: 70px 0;
+}
+
+.contact{
+    margin: 80px auto;
+    text-align: center;
+}
+
+.contact ul img{
+    margin: 50px;
+}
+
+.footer-nav ul li a{
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+
+

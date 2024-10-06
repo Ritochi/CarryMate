@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/cart.css">
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <h1 id = "nav-title">CARRYMATE</h1>
+        <nav>
+            <ul>
+                <li><a href="./home.html">HOME</a></li>
+                <li class="drop">
+                    <p id="dropdown">COLLECTIONS</p>
+                    <div class="dropdown-content">
+                        <a href="./collections.html">All</a>
+                        <a href="./packs.html">Pack Collection</a>
+                        <a href="./gopack.html">GoPack Collection</a>
+                        <a href="./sling.html">Slingbag Collection</a>
+                        <a href="./cubenzip.html">Cube & Zip Collection</a>
+                    </div>
+                </li>
+                <li><a href="./aboutus.html">ABOUT US</a></li>
+                <li><a href="./cart.html">CART</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="content">
+        <div class="flex-container">
+            <div class="flex1">
+                <h1>
+                    Shopping Cart
+                </h1>
+                <div class="image-buy">
+
+                </div>
+            </div>
+            <div class="flex2">
+                <div class="first-line">
+                    <p>CarryMate Pack</p>
+                    <p>+</p>
+                    <p>1</p>
+                    <p->-</p>
+                    <p>Rp.499.999</p>
+                </div>
+                <div class="second-line">
+                    <p>Black</p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="third-line">
+                    <p>Total</p>
+                    <p>Rp.499.999</p>
+                    <div class="tombol">
+                        <button type="submit" class="btn" onclick="openPopup()">Checkout</button> 
+                        <div class="popup" id="popup">
+                            <img src="/webdevfixed/props/collections-props/404-tick%201.svg" alt="">
+                             <h2>Checkout success</h2>
+                            <br>
+                            <button type="ok" class="btn2" onclick="closePopup(), location.href='./home.html'">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+    </section>
+    
+    <section class="footer">
+        <div class="footer-nav">
+            <ul>
+                <li><a href="./shipping.html">Shipping</a></li>
+                <li><a href=""></a>Terms and Conditions</li>
+                <li><a href=""></a>FAQ</li>
+                <li><a href=""></a>Privacy Policy</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="contact">
+            <p>Contact Us Here:<p>
+            <ul>
+                <img src="../props/home-props/instagram 1.svg" alt="">
+                <img src="../props/home-props/facebook 1.svg" alt="">
+                <img src="../props/home-props/mail 1.svg" alt="">
+            </ul>
+        </div>
+    </section>
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+
+    </script>
+</body>
+</html>
